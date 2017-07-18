@@ -53,3 +53,12 @@ This README would normally document whatever steps are necessary to get your app
 4. Open the confirmation email to access all content
 
 
+## Simple presentation: ##
+
+* [PDF](https://bitbucket.org/tutorials/markdowndemo)
+* [PPT](https://bitbucket.org/tutorials/markdowndemo)
+
+### Online version in the Heroku###
+###### Almost 100% functional ###### 
+
+
