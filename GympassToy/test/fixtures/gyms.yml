@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  gym_name: MyString
+  address: MyString
+  open_time: MyString
+  close_time: MyString
+  gym_manager: MyString
+
+two:
+  gym_name: MyString
+  address: MyString
+  open_time: MyString
+  close_time: MyString
+  gym_manager: MyString

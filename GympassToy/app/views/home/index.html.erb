@@ -1,0 +1,17 @@
+<h1>Top Gyms</h1>
+
+<ul>
+	<% @gyms.each do |gym| %>
+		<li>
+			<%= link_to gym.gym_name , gym %>
+		</li>
+	<% end%>
+</ul>
+<br>
+<br>
+<br>
+<p>
+	<ul>
+		<li><h1><%= link_to 'Visualizar Usuarios', users_path %></h1></li>
+	</ul>
+</p>
