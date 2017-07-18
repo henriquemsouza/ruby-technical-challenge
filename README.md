@@ -25,7 +25,15 @@ This README would normally document whatever steps are necessary to get your app
 * opening and closing times
 * one gym manager 
 
-* [More Info](https://bitbucket.org/tutorials/markdowndemo)
+ [More Info](https://bitbucket.org/tutorials/markdowndemo)
+ 
+ 
+ ### users can register themselves ###
+
+ [More Info](https://bitbucket.org/tutorials/markdowndemo)
+ 
+ 
+### regular end users should be able to do the following ###
 
 
 
