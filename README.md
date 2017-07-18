@@ -25,15 +25,31 @@ This README would normally document whatever steps are necessary to get your app
 * opening and closing times
 * one gym manager 
 
- [More Info](https://bitbucket.org/tutorials/markdowndemo)
+ * [More Info](https://bitbucket.org/tutorials/markdowndemo)
  
  
  ### users can register themselves ###
 
- [More Info](https://bitbucket.org/tutorials/markdowndemo)
+ * [More Info](https://bitbucket.org/tutorials/markdowndemo)
  
  
 ### regular end users should be able to do the following ###
 
+
+### How to run: ###
+
+1. Clone or download the project
+2. Open the folder GympassToy
+3. Press shift+Left mouse button = open CMD
+4. Type it at CMD rails s 
+5. In the browser type http://localhost:3000/
+
+
+###### To complete the registration ######
+
+1. If it has not installed install it by running:   gem install mailcatcher
+2. At Type mailcatcher
+3. In the browse go to : http://localhost:1080/
+4. Open the confirmation email to access all content
 
 
