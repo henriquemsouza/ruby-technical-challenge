@@ -15,8 +15,8 @@ This README would normally document whatever steps are necessary to get your app
 * at least one for gym managers: work address
 * at least one for Gympass employees: work address
 * zero or more managed gyms if gym manager
-* [More Info](https://bitbucket.org/tutorials/markdowndemo)
-
+* [More Info](https://bitbucket.org/henriquemsouza/gympass-technical-challenge/src/c807d59139b40e82d6e2fd89251113ac183e95b3/GympassToy/app/models/user.rb?at=master&fileviewer=file-view-default)
+* [More Info 2](https://bitbucket.org/henriquemsouza/gympass-technical-challenge/src/c807d59139b40e82d6e2fd89251113ac183e95b3/GympassToy/db/migrate/20170716005309_create_users.rb?at=master&fileviewer=file-view-default)
 
 ###	gyms should have the following attributes ###
 
@@ -28,7 +28,7 @@ This README would normally document whatever steps are necessary to get your app
  * [More Info](https://bitbucket.org/tutorials/markdowndemo)
  
  
- ### users can register themselves ###
+### users can register themselves ###
 
  * [More Info](https://bitbucket.org/tutorials/markdowndemo)
  
