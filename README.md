@@ -15,5 +15,17 @@ This README would normally document whatever steps are necessary to get your app
 * at least one for gym managers: work address
 * at least one for Gympass employees: work address
 * zero or more managed gyms if gym manager
+* [More Info](https://bitbucket.org/tutorials/markdowndemo)
+
+
+###	gyms should have the following attributes ###
+
+* a name, which should be unique and not empty 
+* an "address" (see user "addresses")
+* opening and closing times
+* one gym manager 
+
+* [More Info](https://bitbucket.org/tutorials/markdowndemo)
+
 
 
