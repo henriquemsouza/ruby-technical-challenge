@@ -168,10 +168,63 @@ form {
 
 
 
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+   position:absolute;
+   bottom:0;
+   width:100%;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
 
 
 
+/* content from  home  index */
+#content-wrap {
+ margin: 50px 
+}
 
+/* new gym */
+#new-gym-wrap {
+ margin-top: 20px;
+ margin-bottom: 10px;
+ margin-left: 100px;
+}
+
+/* new user */
+#new-user-wrap {
+ margin-top: 20px;
+ margin-bottom: 10px;
+ margin-left: 100px;
+}
+#s-gym-wrap {
+   margin: 0 auto;
+}
 
 
 

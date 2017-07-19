@@ -1,4 +1,5 @@
-<h1><%= t '.title' %></h1>
+<div style="margin-left: 100px;">
+<h1>Login</h1>
 
 <% if @user_session.errors.has_key? :base %>
   <div id="error_explanation">
@@ -18,10 +19,12 @@
     <%= error_tag @user_session, :password %>
   </p>
   <p>
+  <br>
     <%= f.submit %>
   </p>
 <% end %>
-
+<br>
 <p>
   <%= link_to t('.sign_up'), new_user_path %>
 </p>
+</div>

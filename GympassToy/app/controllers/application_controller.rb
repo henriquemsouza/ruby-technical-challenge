@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   delegate :current_user, :user_signed_in?, to: :user_session
-helper_method :current_user, :user_signed_in?
+  helper_method :current_user, :user_signed_in?
 
   protect_from_forgery with: :exception
 

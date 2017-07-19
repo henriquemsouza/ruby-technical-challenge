@@ -6,14 +6,17 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+	<%= favicon_link_tag 'favicon.ico' %>
   </head>
 
   <body> 
   <header>
   		<div id="header-wrap">
 	  		<h1>
-          <%= link_to "GympassToy", root_path %>
-        </h1>
+               <%= link_to "GympassToy", root_path %>
+            </h1>
+			<!-- Change header if logged in or not -->
+			<!--  -->
             <% if user_signed_in? %>
               <%= render 'layouts/user_navbar' %>
             <% else %>
@@ -22,8 +25,17 @@
 
       </div>
     </header>
-	
-	
+	   <br>
     <%= yield %>
+	<br>
+	<br>
+	  <!-- Change  Warning message if logged in or not -->
+	  <% if user_signed_in? %>
+              <%= render 'layouts/user_warning' %>
+            <% else %>
+              <%= render 'layouts/visitor_warning' %>
+            <% end %>
+	<!--Displays footer  -->
+	<%= render 'layouts/footer' %>		
   </body>
 </html>

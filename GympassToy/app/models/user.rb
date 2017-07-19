@@ -1,4 +1,5 @@
 class User < ApplicationRecord 
+    #Validate form fields
     scope :confirmed, -> { where.not(confirmed_at: nil) }
     EMAIL_REGEXP = /\A[^@]+@([^@\.]+\.)+[^@\.]+\z/
     validates_presence_of :email, :full_name, :job

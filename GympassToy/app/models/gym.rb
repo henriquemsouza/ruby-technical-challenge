@@ -1,7 +1,6 @@
 class Gym < ApplicationRecord
+   #Validate form fields
    validates_uniqueness_of  :gym_name 
-   #,:gym_manager
-  
    validates_presence_of :gym_name 
    
 end
