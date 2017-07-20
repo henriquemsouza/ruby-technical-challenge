@@ -18,8 +18,6 @@ This README would normally document whatever steps are necessary to get your app
 * [More Info](https://bitbucket.org/henriquemsouza/gympass-technical-challenge/src/c807d59139b40e82d6e2fd89251113ac183e95b3/GympassToy/app/models/user.rb?at=master&fileviewer=file-view-default)
 * [More Info 2](https://bitbucket.org/henriquemsouza/gympass-technical-challenge/src/c807d59139b40e82d6e2fd89251113ac183e95b3/GympassToy/db/migrate/20170716005309_create_users.rb?at=master&fileviewer=file-view-default)
 
-![Alt text](user/new_user_1.png)
-
 ###	gyms should have the following attributes ###
 
 * a name, which should be unique and not empty 
@@ -62,7 +60,5 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Online version in the Heroku###
 ###### Almost 100% functional ###### 
-
-* [Heroku url](https://gymtlogin.herokuapp.com)
 
 
