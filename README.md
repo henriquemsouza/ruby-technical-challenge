@@ -11,10 +11,7 @@
 * at least one for gym managers: work address
 * at least one for Gympass employees: work address
 * zero or more managed gyms if gym manager
-* [More Info](https://bitbucket.org/henriquemsouza/gympass-technical-challenge/src/c807d59139b40e82d6e2fd89251113ac183e95b3/GympassToy/app/models/user.rb?at=master&fileviewer=file-view-default)
-* [More Info 2](https://bitbucket.org/henriquemsouza/gympass-technical-challenge/src/c807d59139b40e82d6e2fd89251113ac183e95b3/GympassToy/db/migrate/20170716005309_create_users.rb?at=master&fileviewer=file-view-default)
 
-![Alt text](https://content-na.drive.amazonaws.com/cdproxy/templink/hVxKz8tzYP3gq1UVGT2e7jH9xwzfwHofPPBsamHy3TkpX92IB?viewBox=1366)
 
 ###	gyms should have the following attributes ###
 
@@ -22,14 +19,11 @@
 * an "address" (see user "addresses")
 * opening and closing times
 * one gym manager 
-* [More Info](https://bitbucket.org/henriquemsouza/gympass-technical-challenge/src/05b67a191623ef9bf4a2cacec94dd83d2047ff30/GympassToy/app/models/gym.rb?at=master&fileviewer=file-view-default)
- 
-![Alt text](https://content-na.drive.amazonaws.com/cdproxy/templink/23ebmOQv5JL25ivgkavHoiGR4H_WcnEPRKQuxKoP4DMpX92IB?viewBox=1366)
  
  
 ### users can register themselves ###
 
-![Alt text](https://content-na.drive.amazonaws.com/cdproxy/templink/x_lXK8zVtd6L-c2zNLirXZcyZ7UIoeEMQdedPzB3u6kpX92IB?viewBox=1366)
+
  
  
 ###### Obs: Some functions will only be available in the next version 
@@ -57,16 +51,7 @@
 * [PDF](https://1drv.ms/b/s!AqysHlKEcnBOkyv0CW0ZOWvzZD6C)
 
 
-### Online version in the Heroku###
 ###### Almost 100% functional 
-###### 'links to the site'
 
-* [Heroku url](https://gymtlogin.herokuapp.com)
-* [Add new Gym](https://gymtlogin.herokuapp.com/en/gyms/new)
-* [Login](https://gymtlogin.herokuapp.com/user_sessions/new)
-* [List gyms](https://gymtlogin.herokuapp.com/en/gyms)
-
-
-###### OBS:The login part is not working due to problems with the mailgun that is not firing email for who signs up in the online version
 
 
