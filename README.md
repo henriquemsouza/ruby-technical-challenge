@@ -1,4 +1,4 @@
-# Gympass Technical Challenge - J1.0.2 #
+# Technical Challenge #
 
 
 
